@@ -1,0 +1,193 @@
+body {
+	margin:0 auto;
+	padding: 25px;
+}
+
+div#container {
+	width:auto;
+	height: auto;
+	margin:0 auto;
+	padding:0;
+}
+
+div#dayContainer {
+	/*border:1px solid red;*/
+	width:auto;
+	height: auto;
+}
+
+div#dayInfo {
+	/*border:1px solid red;*/
+	width: 170px;
+	height: 70px;
+	position: relative;
+}
+
+div#dayBreaks {
+	width: 70px;
+	height: 70px;
+	/*border:1px solid red;*/
+	position: absolute;
+	top:0;
+    margin-right:-80px;
+	right:0;
+}
+
+div#addDayStartTimeBox {
+	border:2px solid #787878;
+	padding:0 10px;
+	margin-right: 10px;
+	float:right;
+}
+
+div#addDayEndTime, div#addDayStartTime, div#dayTotalLength {
+	height: 25px; 
+	width: auto;
+}
+
+div#addDayEndTimeBox {
+	padding:0 10px;
+	margin-right: 10px;
+	float:right;
+}
+
+ul.dayActivity {
+	width: 250px;
+	height:410px;
+	border:2px dashed #888888;
+	margin-top: 15px;
+	padding:0;
+	clear:both;
+}
+
+div#addDayButton {
+	width: 125px;
+	height: 100px;
+	padding-top: 35px;
+	padding-bottom: 20px;
+	margin-left:25px;
+	margin-top: 250px;
+}
+
+div#addDayButton {
+	border:2px solid #006600;
+	background-color: #66CC00;
+	text-align: center;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+ul#activitiesContainer, ul#addActivity, ul.dayActivity {
+	list-style-type: none;
+}
+
+/*  ADDACTIVITY *************************************************/
+
+div#activities {
+	width: auto;
+	height: auto;
+}
+
+ul#activitiesContainer {
+	width: 250px;
+	height: 465px;
+	border: 2px dashed #888888;
+	/*overflow-y: scroll; */
+	margin:0;
+	padding:0;
+}
+
+div#addButtonContainer {
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 5px;
+	padding:0 5%;
+}
+
+button#addActivityButton{
+	border:2px solid #006600;
+	background-color: #66CC00;
+	font-weight: bold;
+	color:#FFFFFF;
+	width: 220px;
+}
+
+li#activity.activityObject { 
+	height: 27px; 
+	color:#000;
+	margin:0;
+	padding:0;
+}
+
+div#activityTime{
+	padding: 0 0 0 10px; 
+	margin:0;
+}
+div#activityName{
+	height:25px;
+	text-align: left;
+	padding: 0 0 0 5px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+.Presentation {
+	border:2px solid #527ACC;
+	background-color: #E0EBFF;
+}
+.Discussion{
+	border:2px solid #799679;
+	background-color: #D6EAD6;
+}
+.Break {
+	border:2px solid #CCCC52;
+	background-color: yellow;
+}
+.Group {
+	border:2px solid #991F00;
+	background-color: #FFD6CC;
+}
+
+
+textarea {
+	resize:none;
+}
+
+/*  ADDACTIVITY POPUP ***********************************************************/
+
+div#popup {
+	width: 250px;
+	height: 500px;
+}
+
+#saveActivity {
+	border:2px solid #006600;
+	background-color: #66CC00;
+	font-weight: bold;
+	color:#FFFFFF;
+	margin-left: 20px
+}
+#cancelActivity{
+	border:2px solid #802828;
+	background-color: #FF5050;
+	font-weight: bold;
+	color:#FFFFFF;
+	float:left;
+}
+#name{
+	width:160px;
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+#length{
+	width:130px;
+	margin-bottom: 20px
+}
+#typeid{
+	width:160px;
+	margin-bottom: 20px
+}
+#description{
+	width:160px;
+	margin-bottom: 20px
+}
